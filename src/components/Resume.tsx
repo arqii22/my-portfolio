@@ -8,7 +8,7 @@ const Resume = () => {
                 <h2>Resume</h2>
                 <hr />
                 <Link to="/full-resume">
-                    <img src="/resume.jpg" alt="Resume" />
+                    <img src={`${process.env.PUBLIC_URL}/resume.jpg`} alt="Resume" />
                 </Link>
             </div>
         </section>

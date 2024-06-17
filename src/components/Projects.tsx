@@ -10,12 +10,12 @@ const Projects = () => {
                 <div className="project-cards">
                     <div className="project-card">
                         <h3>Project One</h3>
-                        <img src="/swanson.jpg" alt="Ron Swanson" />
+                        <img src={`${process.env.PUBLIC_URL}/swanson.jpg`} alt="Ron Swanson" />
                         <Link to="/project-one">View Project</Link>
                     </div>
                     <div className="project-card">
                         <h3>Project Two</h3>
-                        <img src="/classwork.jpeg" alt="Ron Swanson" />
+                        <img src={`${process.env.PUBLIC_URL}/classwork.jpeg`} alt="Classwork" />
                         <Link to="/project-two">View Project</Link>
                     </div>
                 </div>
