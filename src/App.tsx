@@ -30,7 +30,7 @@ const ScrollToTop = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <div className="App">
         <Header />
